@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017D480D2177F9C900F20E40 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D480C2177F9C900F20E40 /* SWRevealViewController.m */; };
 		01BECAAF2177F32B003BFB20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BECAAE2177F32B003BFB20 /* AppDelegate.swift */; };
 		01BECAB12177F32B003BFB20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BECAB02177F32B003BFB20 /* ViewController.swift */; };
 		01BECAB42177F32B003BFB20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BECAB22177F32B003BFB20 /* Main.storyboard */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		017D480A2177F9C800F20E40 /* SmackTestChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmackTestChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		017D480B2177F9C900F20E40 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		017D480C2177F9C900F20E40 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		01BECAAB2177F32B003BFB20 /* SmackTestChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackTestChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01BECAAE2177F32B003BFB20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01BECAB02177F32B003BFB20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +44,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		017D48092177F96A00F20E40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				017D480B2177F9C900F20E40 /* SWRevealViewController.h */,
+				017D480C2177F9C900F20E40 /* SWRevealViewController.m */,
+				017D480A2177F9C800F20E40 /* SmackTestChat-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		01BECAA22177F32B003BFB20 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +75,7 @@
 		01BECAAD2177F32B003BFB20 /* SmackTestChat */ = {
 			isa = PBXGroup;
 			children = (
+				017D48092177F96A00F20E40 /* Supporting Files */,
 				01BECAAE2177F32B003BFB20 /* AppDelegate.swift */,
 				01BECAB02177F32B003BFB20 /* ViewController.swift */,
 				01BECAB22177F32B003BFB20 /* Main.storyboard */,
@@ -122,6 +137,7 @@
 				TargetAttributes = {
 					01BECAAA2177F32B003BFB20 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -208,6 +224,7 @@
 			files = (
 				01BECAB12177F32B003BFB20 /* ViewController.swift in Sources */,
 				01BECAAF2177F32B003BFB20 /* AppDelegate.swift in Sources */,
+				017D480D2177F9C900F20E40 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +371,7 @@
 			baseConfigurationReference = A23FDCE44F196BE90C665BE1 /* Pods-SmackTestChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4TVTS2KH2Z;
 				INFOPLIST_FILE = SmackTestChat/Info.plist;
@@ -363,6 +381,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.burcin.SmackTestChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmackTestChat/Supporting Files/SmackTestChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -373,6 +393,7 @@
 			baseConfigurationReference = 1E234E365041B1450A062BB0 /* Pods-SmackTestChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4TVTS2KH2Z;
 				INFOPLIST_FILE = SmackTestChat/Info.plist;
@@ -382,6 +403,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.burcin.SmackTestChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmackTestChat/Supporting Files/SmackTestChat-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
