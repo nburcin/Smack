@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0114D75E2178E0DE00168590 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114D75D2178E0DE00168590 /* CreateAccountVC.swift */; };
 		014EC4472178081C003016B9 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EC4462178081C003016B9 /* ChatVC.swift */; };
 		014EC44921780842003016B9 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EC44821780842003016B9 /* ChannelVC.swift */; };
 		016AD56B2178C11E00195866 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016AD56A2178C11E00195866 /* GradientView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0114D75D2178E0DE00168590 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		014EC4462178081C003016B9 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		014EC44821780842003016B9 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		016AD56A2178C11E00195866 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				014EC4462178081C003016B9 /* ChatVC.swift */,
 				014EC44821780842003016B9 /* ChannelVC.swift */,
 				01B6BDCB2178DD5400F4716C /* LoginVC.swift */,
+				0114D75D2178E0DE00168590 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				014EC44921780842003016B9 /* ChannelVC.swift in Sources */,
 				014EC4472178081C003016B9 /* ChatVC.swift in Sources */,
+				0114D75E2178E0DE00168590 /* CreateAccountVC.swift in Sources */,
 				01B6BDCC2178DD5400F4716C /* LoginVC.swift in Sources */,
 				016AD56B2178C11E00195866 /* GradientView.swift in Sources */,
 				01BECAAF2177F32B003BFB20 /* AppDelegate.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  LoginVC.swift
+//  CreateAccountVC.swift
 //  SmackTestChat
 //
 //  Created by Nicholas Burcin on 10/18/18.
@@ -8,20 +8,17 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
+class CreateAccountVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
 
     @IBAction func closeBtnPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        
+        performSegue(withIdentifier: UNWIND, sender: nil)
     }
-    
-    @IBAction func createAccountBtnPressed(_ sender: Any) {
-        performSegue(withIdentifier: TO_CREATE_ACCOUNT, sender: nil)
-    }
-    
 }
