@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0114D75E2178E0DE00168590 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114D75D2178E0DE00168590 /* CreateAccountVC.swift */; };
+		0123BFBC217A91BA00C9C9F5 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0123BFBB217A91BA00C9C9F5 /* UserDataService.swift */; };
 		014EC4472178081C003016B9 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EC4462178081C003016B9 /* ChatVC.swift */; };
 		014EC44921780842003016B9 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EC44821780842003016B9 /* ChannelVC.swift */; };
 		016AD56B2178C11E00195866 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016AD56A2178C11E00195866 /* GradientView.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		0114D75D2178E0DE00168590 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		0123BFBB217A91BA00C9C9F5 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		014EC4462178081C003016B9 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		014EC44821780842003016B9 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		016AD56A2178C11E00195866 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				01EEA030217A05CC00B47B2B /* AuthService.swift */,
+				0123BFBB217A91BA00C9C9F5 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				014EC44921780842003016B9 /* ChannelVC.swift in Sources */,
 				01B18CED217A1BE600CE81EE /* RoundedButton.swift in Sources */,
 				014EC4472178081C003016B9 /* ChatVC.swift in Sources */,
+				0123BFBC217A91BA00C9C9F5 /* UserDataService.swift in Sources */,
 				0114D75E2178E0DE00168590 /* CreateAccountVC.swift in Sources */,
 				01EEA031217A05CC00B47B2B /* AuthService.swift in Sources */,
 				01B6BDCC2178DD5400F4716C /* LoginVC.swift in Sources */,
