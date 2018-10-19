@@ -12,6 +12,7 @@
 		014EC44921780842003016B9 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EC44821780842003016B9 /* ChannelVC.swift */; };
 		016AD56B2178C11E00195866 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016AD56A2178C11E00195866 /* GradientView.swift */; };
 		017D480D2177F9C900F20E40 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D480C2177F9C900F20E40 /* SWRevealViewController.m */; };
+		01B18CED217A1BE600CE81EE /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B18CEC217A1BE600CE81EE /* RoundedButton.swift */; };
 		01B6BDCA2178D3B500F4716C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B6BDC92178D3B500F4716C /* Constants.swift */; };
 		01B6BDCC2178DD5400F4716C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B6BDCB2178DD5400F4716C /* LoginVC.swift */; };
 		01BECAAF2177F32B003BFB20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BECAAE2177F32B003BFB20 /* AppDelegate.swift */; };
@@ -30,6 +31,7 @@
 		017D480A2177F9C800F20E40 /* SmackTestChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmackTestChat-Bridging-Header.h"; sourceTree = "<group>"; };
 		017D480B2177F9C900F20E40 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		017D480C2177F9C900F20E40 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		01B18CEC217A1BE600CE81EE /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		01B6BDC92178D3B500F4716C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		01B6BDCB2178DD5400F4716C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		01BECAAB2177F32B003BFB20 /* SmackTestChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackTestChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				016AD56A2178C11E00195866 /* GradientView.swift */,
+				01B18CEC217A1BE600CE81EE /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				014EC44921780842003016B9 /* ChannelVC.swift in Sources */,
+				01B18CED217A1BE600CE81EE /* RoundedButton.swift in Sources */,
 				014EC4472178081C003016B9 /* ChatVC.swift in Sources */,
 				0114D75E2178E0DE00168590 /* CreateAccountVC.swift in Sources */,
 				01EEA031217A05CC00B47B2B /* AuthService.swift in Sources */,

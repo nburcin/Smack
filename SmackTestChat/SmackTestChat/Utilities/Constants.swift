@@ -12,7 +12,7 @@ typealias CompletionHandler = (_ Success: Bool) -> ()
 
 // URL
 
-let BASE_URL = "https://chatty-mcchat-face.herokuapp.com/"
+let BASE_URL = "https://chatty-mcchat-face.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
 
 
