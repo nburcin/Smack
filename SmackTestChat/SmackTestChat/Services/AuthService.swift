@@ -9,6 +9,7 @@
 import Foundation
 import Alamofire
 
+
 class AuthService {
     
     static let instance = AuthService()
