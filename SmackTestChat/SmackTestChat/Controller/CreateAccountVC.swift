@@ -21,6 +21,7 @@ class CreateAccountVC: UIViewController {
     
     var avatarName = "profileDefault"
     var avatarColor = "[0.5, 0.5, 0.5, 1]"
+    var bgColor : UIColor?
     
     
     override func viewDidLoad() {
@@ -62,6 +63,7 @@ class CreateAccountVC: UIViewController {
     }
     
     @IBAction func pickBGColorPressed(_ sender: Any) {
+        
     }
     
     @IBAction func closeBtnPressed(_ sender: Any) {
