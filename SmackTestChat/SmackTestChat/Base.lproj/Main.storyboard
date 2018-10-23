@@ -115,23 +115,29 @@
                                 <rect key="frame" x="0.0" y="132" width="414" height="489"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Yqd-tL-QIz">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="channelCell" id="Yqd-tL-QIz" customClass="ChannelCell" customModule="SmackTestChat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Yqd-tL-QIz" id="1Pw-JQ-K8p">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#general" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFG-Po-77u">
-                                                    <rect key="frame" x="29" y="9" width="69" height="24"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#general" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFG-Po-77u">
+                                                    <rect key="frame" x="20" y="10" width="69" height="24"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="MFG-Po-77u" firstAttribute="centerY" secondItem="1Pw-JQ-K8p" secondAttribute="centerY" id="NUX-BI-6K1"/>
+                                                <constraint firstItem="MFG-Po-77u" firstAttribute="leading" secondItem="1Pw-JQ-K8p" secondAttribute="leading" constant="20" id="idR-hA-6w4"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="channelName" destination="MFG-Po-77u" id="vav-sv-hGs"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -167,6 +173,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="gKm-VN-v1s" id="Fjn-fy-0jB"/>
+                        <outlet property="tableView" destination="vqF-c4-AC8" id="mTW-b7-NtY"/>
                         <outlet property="userImg" destination="dTd-Jb-7MX" id="D3r-zJ-4Ol"/>
                         <segue destination="YYl-wZ-06e" kind="show" identifier="toLogin" id="gIT-c5-MT7"/>
                     </connections>
