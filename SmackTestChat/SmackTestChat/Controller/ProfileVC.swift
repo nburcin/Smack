@@ -13,11 +13,8 @@ class ProfileVC: UIViewController {
     // Outlets
     
     @IBOutlet weak var profileImg: UIImageView!
-    
     @IBOutlet weak var userName: UILabel!
-    
     @IBOutlet weak var userEmail: UILabel!
-    
     @IBOutlet weak var bgView: UIView!
     
     override func viewDidLoad() {
