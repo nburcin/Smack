@@ -70,6 +70,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		013871CE218090ED009C1A56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		014EC443217807AB003016B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,13 +99,6 @@
 				017B98ED217F666A001036B0 /* CircleImage.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		014EC445217807BE003016B9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		017B98F5217F7F9A001036B0 /* XIBs */ = {
@@ -151,7 +151,7 @@
 				017B98F5217F7F9A001036B0 /* XIBs */,
 				01EEA02F217A059100B47B2B /* Services */,
 				01B6BDC82178D37E00F4716C /* Utilities */,
-				014EC445217807BE003016B9 /* Model */,
+				013871CE218090ED009C1A56 /* Model */,
 				014EC444217807B6003016B9 /* View */,
 				014EC443217807AB003016B9 /* Controller */,
 				017D48092177F96A00F20E40 /* Supporting Files */,
